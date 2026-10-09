@@ -7,9 +7,11 @@ Topic-based study material adapted from the supplied *AI with Durga Sir* class n
 | 1 | [Getting started](getting-started/notes.md) | 3–7 | Models, messages, context, and first calls |
 | 2 | [Prompts and messages](prompts-and-messages/notes.md) | 8–12 | Reusable text and chat prompts |
 | 3 | [Output parsers and structured data](output-parsers-and-structured-data/notes.md) | 13–18 | AIMessage, parsing, Pydantic, structured output |
-| 4 | [LCEL and runnables](lcel-and-runnables/notes.md) | 19–25 | Chains, invoke, batch, stream, sequence, parallel |
-| 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–38 | Manual history, windows, session-based runnables |
+| 4 | [LCEL and runnables](lcel-and-runnables/notes.md) | 19–25, September 22–24 | Chains, execution modes, sequence, parallel, passthrough, conditional routing |
+| 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–38, October 6–8 | Manual history, windows, sessions, JSON serialization, persistence |
 | 6 | [AI learning assistant](projects/ai-learning-assistant/README.md) | Workshop | A complete small application |
+
+See the [lesson map](lessons/README.md) for material added from the ChatGPT project that has no local PDF. It links each lesson to the matching topic guide and programs.
 
 ## Run the examples
 
@@ -29,6 +31,8 @@ python prompts-and-messages/programs/restaurant_names.py
 ```
 
 Programs that only format prompts or demonstrate runnables can run without an API key. The dependency versions in `requirements.txt` are the versions used to check these examples. The source notes span both current and legacy LangChain APIs; legacy memory examples are explained in the memory guide rather than presented as the default approach.
+
+The file-backed chatbot writes conversations under `chat_history/`, which Git ignores. The optional historical `legacy_memory_examples.py` needs a separate environment with `langchain-classic`; it is not part of the pinned base dependencies.
 
 ## How this repository is organized
 
