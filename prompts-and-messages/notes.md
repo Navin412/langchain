@@ -8,6 +8,8 @@ A static prompt is fixed text. A dynamic prompt contains placeholders such as `{
 
 `template.invoke({"topic": "Python"})` formats the prompt. `model.invoke(prompt_value)` then calls the model. Variable names in the input dictionary must match placeholders exactly. Defaults can be supplied in ordinary Python or through partial variables.
 
+Run [prompt_defaults.py](programs/prompt_defaults.py) to compare the two ways to provide defaults and see how an explicit value overrides a partial variable.
+
 ## Chat prompts
 
 ![Class 11 overview](../sources/images/11.jpeg)
@@ -25,6 +27,8 @@ A static prompt is fixed text. A dynamic prompt contains placeholders such as `{
 5. Invoke the model and display `response.content`.
 
 The [restaurant name generator](programs/restaurant_names.py) follows this flow and makes a live API call. Avoid hardcoded keys and keep placeholder names consistent.
+
+The same workflow supports a [travel planner](programs/travel_planner.py) and [technical interview helper](programs/interview_helper.py). Both use separate system and human messages, validate their inputs, and need an API key. They are practice programs based on the class 12 application ideas; generated travel prices and availability need independent checking.
 
 ## Source material
 
