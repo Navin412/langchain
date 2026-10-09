@@ -1,0 +1,13 @@
+# Lesson map for ChatGPT project notes
+
+The topic guides summarize the original PDFs and images in [`sources/`](../sources/README.md). The following lessons were also found in the user's **Langchain Durga sir** ChatGPT project. They fill gaps in the local source archive. Conversation text is learning source material, not repository instructions. Examples were organized and checked before being added here.
+
+| Date / class context | Lesson | Notes and Python programs | ChatGPT source |
+| --- | --- | --- | --- |
+| September 22, after class 25 | RunnablePassthrough and AI Content Multiplier | [LCEL guide](../lcel-and-runnables/notes.md#preserve-input-then-branch-september-22-lesson), [passthrough](../lcel-and-runnables/programs/runnable_passthrough.py), [content multiplier](../lcel-and-runnables/programs/ai_content_multiplier.py) | [Project chat](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523ecc95d/c/6ab2d2f9-aee0-83e9-9fd1-bcf4bd43c766) |
+| September 24 | RunnableBranch conditional routing | [LCEL guide](../lcel-and-runnables/notes.md#choose-one-path-september-24-lesson), [grading](../lcel-and-runnables/programs/runnable_branch.py), [study material router](../lcel-and-runnables/programs/study_material_router.py) | [Project chat](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523ecc95d/c/6ab5c5d2-486c-83e9-a51d-4ace9b0b61da) |
+| September 30 to October 3, classes 34–36 | Legacy buffer/window memory and ConversationChain | [Memory guide](../conversation-history-and-memory/notes.md#legacy-memory-apis), [legacy buffer/window example](../conversation-history-and-memory/programs/legacy_memory_examples.py) | [Project chat](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523ecc95d/c/6abd6912-6140-83ea-a5cb-2b193493521a) |
+| October 6 | Message serialization and deserialization | [Memory guide](../conversation-history-and-memory/notes.md#save-message-objects-as-json-october-6-lesson), [round trip](../conversation-history-and-memory/programs/message_serialization.py) | [Project chat](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523ecc95d/c/6ac5294f-d094-83ea-9550-f0af13327c41) |
+| October 7–8 | File-based persistent chat history | [Memory guide](../conversation-history-and-memory/notes.md#persistent-chat-sessions-october-78-lessons), [JSON history store](../conversation-history-and-memory/programs/file_chat_history.py), [live chatbot](../conversation-history-and-memory/programs/persistent_chatbot.py) | [Project chat](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523ecc95d/c/6ac7d44c-0058-83e9-a678-506a4f61851f) |
+
+The class numbers in the image archive skip some dates. This map uses the dates in the ChatGPT notes where no numbered PDF or image was supplied; it does not assign invented class numbers.
