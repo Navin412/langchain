@@ -8,7 +8,7 @@ Topic-based study material adapted from the supplied *AI with Durga Sir* class n
 | 2 | [Prompts and messages](prompts-and-messages/notes.md) | 8–12 | Reusable text and chat prompts |
 | 3 | [Output parsers and structured data](output-parsers-and-structured-data/notes.md) | 13–18 | AIMessage, parsing, Pydantic, structured output |
 | 4 | [LCEL and runnables](lcel-and-runnables/notes.md) | 19–25 | Chains, invoke, batch, stream, sequence, parallel |
-| 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–36 | Manual history, windows, legacy APIs |
+| 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–38 | Manual history, windows, session-based runnables |
 | 6 | [AI learning assistant](projects/ai-learning-assistant/README.md) | Workshop | A complete small application |
 
 ## Run the examples
