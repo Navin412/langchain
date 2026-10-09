@@ -20,6 +20,8 @@ Requesting JSON in a prompt alone cannot ensure fields and types are correct. A 
 
 Class 17 explains the wrapper and `include_raw=True`, which exposes raw response, parsed result, and parsing error for debugging. Class 18 emphasizes good field names, descriptions, types, and optional fields. Use specific exception handling around external calls and validation.
 
+Run [structured_output_with_raw.py](programs/structured_output_with_raw.py) to see the raw `AIMessage`, parsed `SupportTicket`, and `parsing_error` in one result. The ticket schema limits category and priority to known values. Check important facts before creating tickets or triggering other actions: schema validation checks data shape, not factual accuracy.
+
 ## Source material
 
 - [Classes 13–15](../sources/pdfs/class13-langchain.pdf), [class 16](../sources/pdfs/class16-notes.pdf), [class 18](../sources/pdfs/Langchain%20-%20class18.pdf)
