@@ -48,9 +48,13 @@ The [class 40 PDF](../sources/pdfs/Langchain%20-%20class40.pdf) builds a JSON fi
 
 The file store uses a hash of the conversation ID as its filename and replaces files after writing. It is a teaching example for a single process; concurrent writers need a transactional database or suitable locking. The `chat_history/` directory is ignored by Git because it can contain private conversations. Do not publish it with the study notes.
 
+![Class 41 overview](../sources/images/class%2041.png)
+
+The [supplied October 8 Markdown lesson](../sources/October_08_LangChain_Persistent_Chat_History.md) is archived for reference. Its full classroom script covers the same file-backed history pattern as the reviewed examples below.
+
 The [class 41 PDF](../sources/pdfs/Langchain%20-%20class41.pdf) compares `InMemoryChatMessageHistory` with the file-backed store using the same `RunnableWithMessageHistory` pattern. The in-memory store is useful for a short demo but loses history on restart. A file store can reload a session after restart, although it still needs access control, backups, and a plan for concurrent writes. Run the [offline storage comparison](programs/storage_mode_comparison.py) to see both modes side by side. The [in-memory session example](programs/session_history.py) and [file-backed chatbot](programs/persistent_chatbot.py) show the two approaches separately; both select history through a `session_id`.
 
-The original class 34–36 buffer and window examples are available as [legacy_memory_examples.py](programs/legacy_memory_examples.py); [legacy_conversation_chain.py](programs/legacy_conversation_chain.py) shows the older automated chat loop. They need `langchain-classic` in a separate compatible environment and are kept for reading older code rather than as the current default. The serialization and persistence lessons also appear in the [ChatGPT project lesson map](../lessons/README.md). The original class 39–41 PDFs and the class 39–40 infographics are now archived above.
+The original class 34–36 buffer and window examples are available as [legacy_memory_examples.py](programs/legacy_memory_examples.py); [legacy_conversation_chain.py](programs/legacy_conversation_chain.py) shows the older automated chat loop. They need `langchain-classic` in a separate compatible environment and are kept for reading older code rather than as the current default. The serialization and persistence lessons also appear in the [ChatGPT project lesson map](../lessons/README.md). The original class 39–41 PDFs and their infographics are now archived above. The class 41 infographic explains the flow; use the linked Python programs for checked import paths and executable examples.
 
 ## Source material
 
