@@ -50,6 +50,9 @@ These are the supplied originals, copied without editing. The short hashes help 
 - [Langchain - class36.pdf](pdfs/Langchain%20-%20class36.pdf) — SHA-256 `4bc3f4b805cd…`
 - [Langchain - class37.pdf](pdfs/Langchain%20-%20class37.pdf) — SHA-256 `a89f9e8e99eb…`
 - [Langchain - class38.pdf](pdfs/Langchain%20-%20class38.pdf) — SHA-256 `b976a91d9051…`
+- [Langchain - class39.pdf](pdfs/Langchain%20-%20class39.pdf) — SHA-256 `d3d277bb7bc4…`
+- [Langchain - class40.pdf](pdfs/Langchain%20-%20class40.pdf) — SHA-256 `cfdf7151d550…`
+- [Langchain - class41.pdf](pdfs/Langchain%20-%20class41.pdf) — SHA-256 `6ea73330cfbe…`
 
 ## Workshop
 
@@ -83,6 +86,8 @@ These are the supplied originals, copied without editing. The short hashes help 
 - [class 36.png](images/class%2036.png) — SHA-256 `2aa9a00bdb0c…`
 - [class 37.png](images/class%2037.png) — SHA-256 `6ae2cae2a7bb…`
 - [class 38.png](images/class%2038.png) — SHA-256 `eb6fb3ac9592…`
+- [class 39.png](images/class%2039.png) — SHA-256 `09dca0930fc2…`
+- [class 40.png](images/class%2040.png) — SHA-256 `5ee92c33669c…`
 - [WhatsApp Image 2026-09-07 at 10.49.25.jpeg](images/WhatsApp%20Image%202026-09-07%20at%2010.49.25.jpeg) — SHA-256 `6cba8d520aaf…`
 - [WhatsApp Image 2026-09-08 at 14.59.51.jpeg](images/WhatsApp%20Image%202026-09-08%20at%2014.59.51.jpeg) — SHA-256 `676b865491a6…`
 - [WhatsApp Image 2026-09-09 at 12.28.12.jpeg](images/WhatsApp%20Image%202026-09-09%20at%2012.28.12.jpeg) — SHA-256 `faf471ba1052…`
@@ -95,4 +100,4 @@ The original filenames are retained even where image content is identical.
 - `11.jpeg` = `WhatsApp Image 2026-09-08 at 14.59.51.jpeg`
 - `12.jpeg` = `WhatsApp Image 2026-09-09 at 12.28.12.jpeg`
 
-**Archive count:** 35 PDFs and 29 images.
+**Archive count:** 38 PDFs and 31 images.
