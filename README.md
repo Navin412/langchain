@@ -8,10 +8,10 @@ Topic-based study material adapted from the supplied *AI with Durga Sir* class n
 | 2 | [Prompts and messages](prompts-and-messages/notes.md) | 8–12 | Reusable text and chat prompts |
 | 3 | [Output parsers and structured data](output-parsers-and-structured-data/notes.md) | 13–18 | AIMessage, parsing, Pydantic, structured output |
 | 4 | [LCEL and runnables](lcel-and-runnables/notes.md) | 19–25, September 22–24 | Chains, execution modes, sequence, parallel, passthrough, conditional routing |
-| 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–38, October 6–8 | Manual history, windows, sessions, JSON serialization, persistence |
+| 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–41 | Manual history, windows, sessions, JSON serialization, persistence |
 | 6 | [AI learning assistant](projects/ai-learning-assistant/README.md) | Workshop | A complete small application |
 
-See the [lesson map](lessons/README.md) for material added from the ChatGPT project that has no local PDF. It links each lesson to the matching topic guide and programs.
+See the [lesson map](lessons/README.md) for additional material from the ChatGPT project. Classes 39–41 now have archived source PDFs; classes 39 and 40 also have infographics. It links each lesson to the matching topic guide and programs.
 
 ## Run the examples
 
