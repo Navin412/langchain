@@ -34,18 +34,24 @@ For an LCEL chain with dictionary input, `MessagesPlaceholder("history")` marks 
 
 The class notes also discuss legacy `save_context()`, `load_memory_variables()`, and `clear()` methods. Those belong to the older memory classes above, not to `RunnableWithMessageHistory`. A valid history wrapper still needs appropriate storage, context limits, and testing of session isolation. The wrapper may emit a deprecation warning in the pinned `langchain-core` version; keep this example for understanding the class material. For a new LangChain agent, the current [short-term memory guide](https://docs.langchain.com/oss/python/langchain/short-term-memory) describes checkpoint-based memory; the [RunnableWithMessageHistory reference](https://reference.langchain.com/python/langchain-core/runnables/history/RunnableWithMessageHistory) documents this LCEL pattern.
 
-## Save message objects as JSON (October 6 lesson)
+## Save message objects as JSON (class 39)
 
-LangChain messages are Python objects. `message_to_dict()` converts one message to a storable dictionary; `messages_from_dict()` reconstructs a sequence of messages. `json.dumps()` and `json.loads()` convert between Python data and JSON text. Run [message_serialization.py](programs/message_serialization.py) offline to see a complete round trip. Serialization by itself does not save anything after the process stops; a file or database must hold the JSON.
+![Class 39 overview](../sources/images/class%2039.png)
 
-## Persistent chat sessions (October 7–8 lessons)
+The original [class 39 PDF](../sources/pdfs/Langchain%20-%20class39.pdf) covers this round trip. LangChain messages are Python objects. `message_to_dict()` converts one message to a storable dictionary; `messages_from_dict()` reconstructs a sequence of messages. `json.dumps()` and `json.loads()` convert between Python data and JSON text. Run [message_serialization.py](programs/message_serialization.py) offline to see a complete round trip. Serialization by itself does not save anything after the process stops; a file or database must hold the JSON.
 
-[file_chat_history.py](programs/file_chat_history.py) implements `BaseChatMessageHistory` with `messages`, `add_messages()`, and `clear()`. It stores one JSON file per session. The offline demo reopens a session to prove that messages survive creation of a new history object. [persistent_chatbot.py](programs/persistent_chatbot.py) connects this store to `RunnableWithMessageHistory` and a live model, so the same conversation ID can continue after Python restarts.
+## Persistent chat sessions (classes 40–41)
+
+![Class 40 overview](../sources/images/class%2040.png)
+
+The [class 40 PDF](../sources/pdfs/Langchain%20-%20class40.pdf) builds a JSON file-backed history. [file_chat_history.py](programs/file_chat_history.py) implements `BaseChatMessageHistory` with `messages`, `add_messages()`, and `clear()`. It stores one JSON file per session. The offline demo reopens a session to prove that messages survive creation of a new history object. [persistent_chatbot.py](programs/persistent_chatbot.py) connects this store to `RunnableWithMessageHistory` and a live model, so the same conversation ID can continue after Python restarts.
 
 The file store uses a hash of the conversation ID as its filename and replaces files after writing. It is a teaching example for a single process; concurrent writers need a transactional database or suitable locking. The `chat_history/` directory is ignored by Git because it can contain private conversations. Do not publish it with the study notes.
 
-The original class 34–36 buffer and window examples are available as [legacy_memory_examples.py](programs/legacy_memory_examples.py); [legacy_conversation_chain.py](programs/legacy_conversation_chain.py) shows the older automated chat loop. They need `langchain-classic` in a separate compatible environment and are kept for reading older code rather than as the current default. The later serialization and persistence material was supplied through the [ChatGPT project lessons](../lessons/README.md), without local source PDFs or images.
+The [class 41 PDF](../sources/pdfs/Langchain%20-%20class41.pdf) compares `InMemoryChatMessageHistory` with the file-backed store using the same `RunnableWithMessageHistory` pattern. The in-memory store is useful for a short demo but loses history on restart. A file store can reload a session after restart, although it still needs access control, backups, and a plan for concurrent writes. Run the [offline storage comparison](programs/storage_mode_comparison.py) to see both modes side by side. The [in-memory session example](programs/session_history.py) and [file-backed chatbot](programs/persistent_chatbot.py) show the two approaches separately; both select history through a `session_id`.
+
+The original class 34–36 buffer and window examples are available as [legacy_memory_examples.py](programs/legacy_memory_examples.py); [legacy_conversation_chain.py](programs/legacy_conversation_chain.py) shows the older automated chat loop. They need `langchain-classic` in a separate compatible environment and are kept for reading older code rather than as the current default. The serialization and persistence lessons also appear in the [ChatGPT project lesson map](../lessons/README.md). The original class 39–41 PDFs and the class 39–40 infographics are now archived above.
 
 ## Source material
 
-- [Classes 29–38](../sources/README.md#conversation-history-and-memory)
+- [Classes 29–41](../sources/README.md#conversation-history-and-memory)
