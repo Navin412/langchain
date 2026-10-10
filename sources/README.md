@@ -54,6 +54,10 @@ These are the supplied originals, copied without editing. The short hashes help 
 - [Langchain - class40.pdf](pdfs/Langchain%20-%20class40.pdf) — SHA-256 `cfdf7151d550…`
 - [Langchain - class41.pdf](pdfs/Langchain%20-%20class41.pdf) — SHA-256 `6ea73330cfbe…`
 
+## ChatGPT project lesson notes
+
+- [October_08_LangChain_Persistent_Chat_History.md](October_08_LangChain_Persistent_Chat_History.md) — SHA-256 `bc0160c1d7d9…`. Original supplied Markdown, including its class 41 image reference and classroom code. Use the reviewed topic programs for execution.
+
 ## Workshop
 
 - [GENAI-Langchain-workshop.pdf](pdfs/GENAI-Langchain-workshop.pdf) — SHA-256 `964560945e6c…`
@@ -88,6 +92,7 @@ These are the supplied originals, copied without editing. The short hashes help 
 - [class 38.png](images/class%2038.png) — SHA-256 `eb6fb3ac9592…`
 - [class 39.png](images/class%2039.png) — SHA-256 `09dca0930fc2…`
 - [class 40.png](images/class%2040.png) — SHA-256 `5ee92c33669c…`
+- [class 41.png](images/class%2041.png) — SHA-256 `2d84a6e8f926…` (attached image, renamed from its temporary clipboard filename)
 - [WhatsApp Image 2026-09-07 at 10.49.25.jpeg](images/WhatsApp%20Image%202026-09-07%20at%2010.49.25.jpeg) — SHA-256 `6cba8d520aaf…`
 - [WhatsApp Image 2026-09-08 at 14.59.51.jpeg](images/WhatsApp%20Image%202026-09-08%20at%2014.59.51.jpeg) — SHA-256 `676b865491a6…`
 - [WhatsApp Image 2026-09-09 at 12.28.12.jpeg](images/WhatsApp%20Image%202026-09-09%20at%2012.28.12.jpeg) — SHA-256 `faf471ba1052…`
@@ -100,4 +105,4 @@ The original filenames are retained even where image content is identical.
 - `11.jpeg` = `WhatsApp Image 2026-09-08 at 14.59.51.jpeg`
 - `12.jpeg` = `WhatsApp Image 2026-09-09 at 12.28.12.jpeg`
 
-**Archive count:** 38 PDFs and 31 images.
+**Archive count:** 38 PDFs and 32 images.
