@@ -53,6 +53,8 @@ These are the supplied originals, copied without editing. The short hashes help 
 - [Langchain - class39.pdf](pdfs/Langchain%20-%20class39.pdf) — SHA-256 `d3d277bb7bc4…`
 - [Langchain - class40.pdf](pdfs/Langchain%20-%20class40.pdf) — SHA-256 `cfdf7151d550…`
 - [Langchain - class41.pdf](pdfs/Langchain%20-%20class41.pdf) — SHA-256 `6ea73330cfbe…`
+- [Langchain - class42.pdf](pdfs/Langchain%20-%20class42.pdf) — SHA-256 `e85760560e80…`
+- [Langchain - class43.pdf](pdfs/Langchain%20-%20class43.pdf) — SHA-256 `dde2841b1246…`
 
 ## ChatGPT project lesson notes
 
@@ -93,6 +95,7 @@ These are the supplied originals, copied without editing. The short hashes help 
 - [class 39.png](images/class%2039.png) — SHA-256 `09dca0930fc2…`
 - [class 40.png](images/class%2040.png) — SHA-256 `5ee92c33669c…`
 - [class 41.png](images/class%2041.png) — SHA-256 `2d84a6e8f926…` (attached image, renamed from its temporary clipboard filename)
+- [class 43.png](images/class%2043.png) — SHA-256 `28217bb99004…`
 - [WhatsApp Image 2026-09-07 at 10.49.25.jpeg](images/WhatsApp%20Image%202026-09-07%20at%2010.49.25.jpeg) — SHA-256 `6cba8d520aaf…`
 - [WhatsApp Image 2026-09-08 at 14.59.51.jpeg](images/WhatsApp%20Image%202026-09-08%20at%2014.59.51.jpeg) — SHA-256 `676b865491a6…`
 - [WhatsApp Image 2026-09-09 at 12.28.12.jpeg](images/WhatsApp%20Image%202026-09-09%20at%2012.28.12.jpeg) — SHA-256 `faf471ba1052…`
@@ -105,4 +108,4 @@ The original filenames are retained even where image content is identical.
 - `11.jpeg` = `WhatsApp Image 2026-09-08 at 14.59.51.jpeg`
 - `12.jpeg` = `WhatsApp Image 2026-09-09 at 12.28.12.jpeg`
 
-**Archive count:** 38 PDFs and 32 images.
+**Archive count:** 40 PDFs and 33 images.

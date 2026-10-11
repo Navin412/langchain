@@ -54,8 +54,12 @@ The [supplied October 8 Markdown lesson](../sources/October_08_LangChain_Persist
 
 The [class 41 PDF](../sources/pdfs/Langchain%20-%20class41.pdf) compares `InMemoryChatMessageHistory` with the file-backed store using the same `RunnableWithMessageHistory` pattern. The in-memory store is useful for a short demo but loses history on restart. A file store can reload a session after restart, although it still needs access control, backups, and a plan for concurrent writes. Run the [offline storage comparison](programs/storage_mode_comparison.py) to see both modes side by side. The [in-memory session example](programs/session_history.py) and [file-backed chatbot](programs/persistent_chatbot.py) show the two approaches separately; both select history through a `session_id`.
 
-The original class 34–36 buffer and window examples are available as [legacy_memory_examples.py](programs/legacy_memory_examples.py); [legacy_conversation_chain.py](programs/legacy_conversation_chain.py) shows the older automated chat loop. They need `langchain-classic` in a separate compatible environment and are kept for reading older code rather than as the current default. The serialization and persistence lessons also appear in the [ChatGPT project lesson map](../lessons/README.md). The original class 39–41 PDFs and their infographics are now archived above. The class 41 infographic explains the flow; use the linked Python programs for checked import paths and executable examples.
+The original class 34–36 buffer and window examples are available as [legacy_memory_examples.py](programs/legacy_memory_examples.py); [legacy_conversation_chain.py](programs/legacy_conversation_chain.py) shows the older automated chat loop. They need `langchain-classic` in a separate compatible environment and are kept for reading older code rather than as the current default. The serialization and persistence lessons also appear in the [ChatGPT project lesson map](../lessons/README.md). The original class 39–43 PDFs and the available infographics are archived in the source index. The class 41 infographic explains the flow; use the linked Python programs for checked import paths and executable examples.
+
+## Review and multi-user architecture (classes 42–43)
+
+The [class 42 review](../lessons/class-42-conversation-history-review.md) organizes 25 questions about stateless calls, memory windows, sessions, JSON, and persistence. The [class 43 lesson](../lessons/class-43-multi-user-persistent-chatbot.md) includes the new infographic and explains the classroom signup/login design. Its original account code stores plain-text passwords, so use the lesson for architecture study and the linked reviewed programs for hands-on practice.
 
 ## Source material
 
-- [Classes 29–41](../sources/README.md#conversation-history-and-memory)
+- [Classes 29–43](../sources/README.md#conversation-history-and-memory)
