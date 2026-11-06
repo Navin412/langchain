@@ -9,9 +9,12 @@ Topic-based study material adapted from the supplied *AI with Durga Sir* class n
 | 3 | [Output parsers and structured data](output-parsers-and-structured-data/notes.md) | 13–18 | AIMessage, parsing, Pydantic, structured output |
 | 4 | [LCEL and runnables](lcel-and-runnables/notes.md) | 19–25, September 22–24 | Chains, execution modes, sequence, parallel, passthrough, conditional routing |
 | 5 | [Conversation history and memory](conversation-history-and-memory/notes.md) | 29–43 | Manual history, windows, sessions, JSON serialization, persistence |
-| 6 | [AI learning assistant](projects/ai-learning-assistant/README.md) | Workshop | A complete small application |
+| 6 | [Multi-user chatbots](multi-user-chatbots/notes.md) | 43–44 | Session isolation, file and database-backed history |
+| 7 | [RAG and document loading](rag-and-document-loading/notes.md) | 45–58 | Documents, text/PDF/CSV/web loaders, metadata inspection |
+| 8 | [Text splitting](text-splitting/notes.md) | 59–62 | Chunks, overlap, separators, CharacterTextSplitter |
+| 9 | [AI learning assistant](projects/ai-learning-assistant/README.md) | Workshop | A complete small application |
 
-See the [lesson map](lessons/README.md) for additional material from the ChatGPT project. Classes 39–43 now have archived source PDFs; class 43 also has a new infographic. It links each lesson to the matching topic guide and programs.
+See the [earlier lesson map](lessons/README.md) for material from the ChatGPT project and the [new lesson map](lessons/classes-42-62.md) for the locally supplied classes after 41. Original PDFs and images are indexed in the [source archive](sources/README.md).
 
 ## Run the examples
 
@@ -31,6 +34,8 @@ python prompts-and-messages/programs/restaurant_names.py
 ```
 
 Programs that only format prompts or demonstrate runnables can run without an API key. The dependency versions in `requirements.txt` are the versions used to check these examples. The source notes span both current and legacy LangChain APIs; legacy memory examples are explained in the memory guide rather than presented as the default approach.
+
+The new document-loading and text-splitting examples also run offline. For example, `python rag-and-document-loading/programs/custom_loaders.py` creates sample files, and `python text-splitting/programs/splitting_demo.py` prints the resulting chunks. `pdf_documents.py` needs a PDF path and warns about pages without extracted text.
 
 The file-backed chatbot writes conversations under `chat_history/`, which Git ignores. The optional historical `legacy_memory_examples.py` needs a separate environment with `langchain-classic`; it is not part of the pinned base dependencies.
 

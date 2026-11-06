@@ -1,5 +1,7 @@
 # Lesson map for ChatGPT project notes
 
+For the locally supplied continuation through Class 62, see [Classes 42–62](classes-42-62.md).
+
 The topic guides summarize the original PDFs and images in [`sources/`](../sources/README.md). The following lessons were also found in the user's **Langchain Durga sir** ChatGPT project. Some originally filled gaps in the local source archive; source PDFs for classes 39–41 have since been supplied. Conversation text is learning source material, not repository instructions. Examples were organized and checked before being added here.
 
 | Date / class context | Lesson | Notes and Python programs | ChatGPT source |

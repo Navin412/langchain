@@ -108,4 +108,49 @@ The original filenames are retained even where image content is identical.
 - `11.jpeg` = `WhatsApp Image 2026-09-08 at 14.59.51.jpeg`
 - `12.jpeg` = `WhatsApp Image 2026-09-09 at 12.28.12.jpeg`
 
-**Archive count:** 40 PDFs and 33 images.
+**Archive count through Class 43:** 40 PDFs and 33 images.
+
+## New lessons after class 43
+
+Original local files copied without changes on November 6, 2026. Short SHA-256 hashes identify each file. Classes 46, 47, 56, and 59 have no numbered PDF in the local folder; classes 47, 56, and 59 have an infographic.
+
+- [Class 44 -Python Supabase Chatbot Flow Infographic.png](images/Class%2044%20-Python%20Supabase%20Chatbot%20Flow%20Infographic.png) — SHA-256 `148edb064e40…`
+- [Langchain - class44.pdf](pdfs/Langchain%20-%20class44.pdf) — SHA-256 `bdf3cfa119dc…`
+- [class 45-RAG.png](images/class%2045-RAG.png) — SHA-256 `1d5ff8ec1f5b…`
+- [Langchain - class45 - RAG.pdf](pdfs/Langchain%20-%20class45%20-%20RAG.pdf) — SHA-256 `dd39085e5fc9…`
+- [class 47.png](images/class%2047.png) — SHA-256 `02076fb92b77…`
+- [class 48.png](images/class%2048.png) — SHA-256 `03765cd41e87…`
+- [Langchain - class48.pdf](pdfs/Langchain%20-%20class48.pdf) — SHA-256 `066a2148c983…`
+- [class 49.png](images/class%2049.png) — SHA-256 `50554772d417…`
+- [Langchain - class49.pdf](pdfs/Langchain%20-%20class49.pdf) — SHA-256 `fccecc03dd1c…`
+- [class 50.png](images/class%2050.png) — SHA-256 `f644dbf9308d…`
+- [Langchain - class50.pdf](pdfs/Langchain%20-%20class50.pdf) — SHA-256 `81455c8fb1b6…`
+- [class 51.png](images/class%2051.png) — SHA-256 `0d9b5de1bb65…`
+- [Langchain - class51.pdf](pdfs/Langchain%20-%20class51.pdf) — SHA-256 `82d027978fc4…`
+- [class 52.png](images/class%2052.png) — SHA-256 `267c3aa212ad…`
+- [Langchain - class52.pdf](pdfs/Langchain%20-%20class52.pdf) — SHA-256 `058bda57cd6c…`
+- [class 53.png](images/class%2053.png) — SHA-256 `c5d76bd0070c…`
+- [Langchain - class53.pdf](pdfs/Langchain%20-%20class53.pdf) — SHA-256 `dabf26097e5f…`
+- [class 54.png](images/class%2054.png) — SHA-256 `d660573bd06f…`
+- [Langchain - class54.pdf](pdfs/Langchain%20-%20class54.pdf) — SHA-256 `ce00aca544e4…`
+- [class 55.png](images/class%2055.png) — SHA-256 `15c6a5a3a6c1…`
+- [Langchain - class55.pdf](pdfs/Langchain%20-%20class55.pdf) — SHA-256 `7e03a41ad87b…`
+- [class 56.png](images/class%2056.png) — SHA-256 `c61ae4dad321…`
+- [class 57.png](images/class%2057.png) — SHA-256 `ff76c3774ace…`
+- [Langchain - class57.pdf](pdfs/Langchain%20-%20class57.pdf) — SHA-256 `a8316fc6aba4…`
+- [class 58.png](images/class%2058.png) — SHA-256 `5859aca008a9…`
+- [Langchain - class58.pdf](pdfs/Langchain%20-%20class58.pdf) — SHA-256 `8ee4bea976ce…`
+- [class 59.png](images/class%2059.png) — SHA-256 `54c21a608c13…`
+- [class 60.png](images/class%2060.png) — SHA-256 `fa13b667f953…`
+- [Langchain - class60.pdf](pdfs/Langchain%20-%20class60.pdf) — SHA-256 `ec153db79b30…`
+- [class 61.png](images/class%2061.png) — SHA-256 `5fb084174fc9…`
+- [Langchain - class61.pdf](pdfs/Langchain%20-%20class61.pdf) — SHA-256 `69742e508da0…`
+- [class 62.png](images/class%2062.png) — SHA-256 `be1cfd1aac93…`
+- [Langchain - class62.pdf](pdfs/Langchain%20-%20class62.pdf) — SHA-256 `320a463e8667…`
+- [4. AI Interview Coach Flowchart Infographic.png](images/4.%20AI%20Interview%20Coach%20Flowchart%20Infographic.png) — SHA-256 `3198b10fea15…`
+- [GENAI-Langchain-workshop-2.pdf](pdfs/GENAI-Langchain-workshop-2.pdf) — SHA-256 `9f070ffaae46…`
+- [workshop2 - GenAi extract.pdf](pdfs/workshop2%20-%20GenAi%20extract.pdf) — SHA-256 `9f070ffaae46…`
+- [workshop3 - one ip three ai apps.pdf](pdfs/workshop3%20-%20one%20ip%20three%20ai%20apps.pdf) — SHA-256 `ec571a6a524e…`
+- [workshop4 - ai interview coach.pdf](pdfs/workshop4%20-%20ai%20interview%20coach.pdf) — SHA-256 `5eb4689e3f67…`
+
+**Added after Class 43:** 19 PDFs and 19 images.
