@@ -8,9 +8,9 @@ Chunk size is measured by the configured `length_function`. With Python `len`, i
 
 ## CharacterTextSplitter
 
-[Class 62](../sources/pdfs/Langchain%20-%20class62.pdf) explains `CharacterTextSplitter`: it splits at a configured separator and merges pieces toward the target chunk size. `split_text()` returns strings. `create_documents()` creates Documents from text and optional metadata. `split_documents()` accepts Documents and preserves their source metadata. The [offline examples](programs/splitting_demo.py) show these methods and an oversized-piece case.
+[Class 62](../sources/pdfs/Langchain%20-%20class62.pdf) explains `CharacterTextSplitter`: it splits at a configured separator and merges pieces toward the target chunk size. `split_text()` returns strings. `create_documents()` creates Documents from text and optional metadata. `split_documents()` accepts Documents and preserves their source metadata. The [short demo](programs/splitting_demo.py) shows metadata and an oversized-piece case. The [Class 60 five-program practice](programs/class_60_five_programs.py) and [Class 62 eight-program practice](programs/class_62_eight_programs.py) cover the programs named in the ChatGPT notes.
 
-For text with mixed paragraph, line and word boundaries, `RecursiveCharacterTextSplitter` tries a sequence of separators. It is a useful follow-up when one separator leaves pieces too large. The original Class 62 PDF contains eight classroom programs and outputs; the included program provides a smaller checked practice set.
+For text with mixed paragraph, line and word boundaries, `RecursiveCharacterTextSplitter` tries a sequence of separators. It is a useful follow-up when one separator leaves pieces too large. The original Class 62 PDF contains the complete classroom programs and outputs. The repository scripts are checked adaptations, with an [explicit source and program map](../lessons/program-source-map.md).
 
 ## Practice checks
 

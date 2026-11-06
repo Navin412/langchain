@@ -2,6 +2,8 @@
 
 This continuation follows the [earlier lesson map](README.md). It is based on the local *AI with Durga Sir* PDFs and infographics now archived in [`sources/`](../sources/README.md#new-lessons-after-class-43). The topic guides explain the material in a study order; the source files retain the full classroom notes.
 
+Use the [program and source map](program-source-map.md) to find runnable examples, the original PDFs and images, and the matching ChatGPT study notes.
+
 | Class | Main topic | Study guide | Original source |
 | --- | --- | --- | --- |
 | 42 | Conversation history and memory revision, 25 MCQs | [Memory guide](../conversation-history-and-memory/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class42.pdf) |
@@ -11,15 +13,15 @@ This continuation follows the [earlier lesson map](README.md). It is based on th
 | 47 | LangChain fundamentals and orchestration review | [RAG and loading guide](../rag-and-document-loading/notes.md) | [Image only](../sources/images/class%2047.png) |
 | 48 | `Document` content and metadata | [RAG and loading guide](../rag-and-document-loading/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class48.pdf), [image](../sources/images/class%2048.png) |
 | 49 | Text files and `TextLoader` | [RAG and loading guide](../rag-and-document-loading/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class49.pdf), [image](../sources/images/class%2049.png) |
-| 50–51 | `PyPDFLoader`, page and single-document modes | [RAG and loading guide](../rag-and-document-loading/notes.md) | [Class 50 PDF](../sources/pdfs/Langchain%20-%20class50.pdf), [Class 51 PDF](../sources/pdfs/Langchain%20-%20class51.pdf) |
+| 50–51 | `PyPDFLoader`, page and single-document modes | [RAG and loading guide](../rag-and-document-loading/notes.md) | [Class 50 PDF](../sources/pdfs/Langchain%20-%20class50.pdf), [image](../sources/images/class%2050.png); [Class 51 PDF](../sources/pdfs/Langchain%20-%20class51.pdf), [image](../sources/images/class%2051.png) |
 | 52 | CSV rows as Documents | [RAG and loading guide](../rag-and-document-loading/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class52.pdf), [image](../sources/images/class%2052.png) |
 | 53 | Web page loading with `WebBaseLoader` | [RAG and loading guide](../rag-and-document-loading/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class53.pdf), [image](../sources/images/class%2053.png) |
-| 54–55 | Custom `BaseLoader`, text and PDF with core packages | [RAG and loading guide](../rag-and-document-loading/notes.md) | [Class 54 PDF](../sources/pdfs/Langchain%20-%20class54.pdf), [Class 55 PDF](../sources/pdfs/Langchain%20-%20class55.pdf) |
+| 54–55 | Custom `BaseLoader`, text and PDF with core packages | [RAG and loading guide](../rag-and-document-loading/notes.md) | [Class 54 PDF](../sources/pdfs/Langchain%20-%20class54.pdf), [image](../sources/images/class%2054.png); [Class 55 PDF](../sources/pdfs/Langchain%20-%20class55.pdf), [image](../sources/images/class%2055.png) |
 | 56 | Custom CSV loader | [RAG and loading guide](../rag-and-document-loading/notes.md) | [Image only](../sources/images/class%2056.png) |
 | 57 | Web loading with `requests`, BeautifulSoup and `Document` | [RAG and loading guide](../rag-and-document-loading/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class57.pdf), [image](../sources/images/class%2057.png) |
 | 58 | Metadata standardization and multi-format inspection | [RAG and loading guide](../rag-and-document-loading/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class58.pdf), [image](../sources/images/class%2058.png) |
 | 59 | Document loading and chunking revision | [Text splitting guide](../text-splitting/notes.md) | [Image only](../sources/images/class%2059.png) |
-| 60–61 | Chunks, size, overlap, separators and common mistakes | [Text splitting guide](../text-splitting/notes.md) | [Class 60 PDF](../sources/pdfs/Langchain%20-%20class60.pdf), [Class 61 PDF](../sources/pdfs/Langchain%20-%20class61.pdf) |
+| 60–61 | Chunks, size, overlap, separators and common mistakes | [Text splitting guide](../text-splitting/notes.md) | [Class 60 PDF](../sources/pdfs/Langchain%20-%20class60.pdf), [image](../sources/images/class%2060.png); [Class 61 PDF](../sources/pdfs/Langchain%20-%20class61.pdf), [image](../sources/images/class%2061.png) |
 | 62 | `CharacterTextSplitter` and practical programs | [Text splitting guide](../text-splitting/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class62.pdf), [image](../sources/images/class%2062.png) |
 
 ## Other supplied workshops
