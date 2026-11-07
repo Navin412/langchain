@@ -16,6 +16,8 @@ Topic-based study material adapted from the supplied *AI with Durga Sir* class n
 
 See the [earlier lesson map](lessons/README.md) for material from the ChatGPT project and the [new lesson map](lessons/classes-42-62.md) for the locally supplied classes after 41. Original PDFs and images are indexed in the [source archive](sources/README.md).
 
+For a class-by-class route through the Python examples, see the [practice guide](practice/README.md). It links the earlier programs and adds small exercises for document loading, web loading, metadata and conversation history.
+
 ## Run the examples
 
 Requires Python 3.10 or newer. From this folder:

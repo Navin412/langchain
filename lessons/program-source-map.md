@@ -2,6 +2,8 @@
 
 The original local folder, `AI DUrga sir`, supplies the classroom PDFs and infographics archived in [`sources/`](../sources/README.md). Its top level has no standalone Python files for these lessons; many programs are printed inside the PDFs. The **Langchain Durga sir** ChatGPT collection also contains formatted study notes. Repository `.py` files are runnable adaptations or focused demonstrations, not a verbatim export of every classroom script.
 
+The [class-by-class Python practice guide](../practice/README.md) now includes the loader and metadata exercises from Classes 48–58. The [searchable PDF text](../practice/pdf-text/README.md) preserves the extractable text of every page of each numbered PDF, including source program listings; check the PDFs where extraction changes code formatting.
+
 | Class or topic | Original PDF and image | Runnable programs in this repository |
 | --- | --- | --- |
 | 42: history review | [PDF](../sources/pdfs/Langchain%20-%20class42.pdf) | [Manual history](../conversation-history-and-memory/programs/manual_chat_history.py), [window](../conversation-history-and-memory/programs/recent_history_window.py), [serialization](../conversation-history-and-memory/programs/message_serialization.py), [file store](../conversation-history-and-memory/programs/file_chat_history.py) |

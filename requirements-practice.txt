@@ -1,0 +1,4 @@
+-r requirements.txt
+langchain-community==0.3.17
+beautifulsoup4==4.12.3
+requests==2.32.3
