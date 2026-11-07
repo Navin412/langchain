@@ -31,13 +31,24 @@ class FolderTextLoader(BaseLoader):
             yield from SimpleTextLoader(path).lazy_load()
 
 
+def program_1_manual_document(path: Path) -> Document:
+    """Read text directly, then wrap it as a LangChain Document."""
+    return Document(
+        page_content=path.read_text(encoding="utf-8"),
+        metadata={"source": str(path)},
+    )
+
+
 if __name__ == "__main__":
     with TemporaryDirectory(dir=Path(__file__).parent) as temp:
         folder = Path(temp)
         (folder / "a.txt").write_text("First document", encoding="utf-8")
         (folder / "b.txt").write_text("Second document", encoding="utf-8")
+        manual = program_1_manual_document(folder / "a.txt")
         one = SimpleTextLoader(folder / "a.txt").load()
         many = FolderTextLoader(folder).load()
+        assert manual.page_content == one[0].page_content
         assert len(one) == 1 and len(many) == 2
+        print("Manual:", manual)
         print("One:", one[0])
         print("Many:", many)

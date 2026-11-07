@@ -4,6 +4,8 @@ The original local folder, `AI DUrga sir`, supplies the classroom PDFs and infog
 
 The [class-by-class Python practice guide](../practice/README.md) now includes the loader and metadata exercises from Classes 48–58. The [searchable PDF text](../practice/pdf-text/README.md) preserves the extractable text of every page of each numbered PDF, including source program listings; check the PDFs where extraction changes code formatting.
 
+The [ChatGPT-to-GitHub review](chatgpt-classes-45-62.md) maps Classes 45–62 to the chats in the **Langchain Durga sir** project and Library folder, then to the matching Python practice files.
+
 | Class or topic | Original PDF and image | Runnable programs in this repository |
 | --- | --- | --- |
 | 42: history review | [PDF](../sources/pdfs/Langchain%20-%20class42.pdf) | [Manual history](../conversation-history-and-memory/programs/manual_chat_history.py), [window](../conversation-history-and-memory/programs/recent_history_window.py), [serialization](../conversation-history-and-memory/programs/message_serialization.py), [file store](../conversation-history-and-memory/programs/file_chat_history.py) |

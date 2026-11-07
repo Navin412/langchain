@@ -4,6 +4,8 @@ This continuation follows the [earlier lesson map](README.md). It is based on th
 
 Use the [program and source map](program-source-map.md) to find runnable examples, the original PDFs and images, and the matching ChatGPT study notes.
 
+The [ChatGPT-to-GitHub review for Classes 45–62](chatgpt-classes-45-62.md) identifies which study chats contain programs and where to run the corresponding examples.
+
 | Class | Main topic | Study guide | Original source |
 | --- | --- | --- | --- |
 | 42 | Conversation history and memory revision, 25 MCQs | [Memory guide](../conversation-history-and-memory/notes.md) | [PDF](../sources/pdfs/Langchain%20-%20class42.pdf) |

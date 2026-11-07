@@ -20,6 +20,7 @@ OFFLINE = [
     ("Class 52", "practice/class52_csv_loader.py", []),
     ("Class 54", "practice/class54_custom_text_loader.py", []),
     ("Class 55", "practice/class55_pdf_core.py", [str(PDF)]),
+    ("Class 56", "practice/class56_csv_core.py", []),
     ("Class 58", "practice/class58_metadata.py", []),
     ("Class 60", "text-splitting/programs/class_60_five_programs.py", []),
     ("Class 62", "text-splitting/programs/class_62_eight_programs.py", []),

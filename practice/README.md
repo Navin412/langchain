@@ -32,14 +32,16 @@ To run the checked practice set in one step, use `python practice/run_all.py`. A
 | 50–51 | `PyPDFLoader` | [Five exercises](class50_51_pdf_loader.py) | Both PDFs repeat the five key topics. |
 | 52 | `CSVLoader` | [Four exercises](class52_csv_loader.py) | Basic, actual CSV, selected columns, source and delimiter. |
 | 53 | `WebBaseLoader` | [Four exercises](class53_web_loader.py) | Uses a local demo website; needs loopback network access. |
-| 54 | Custom text `BaseLoader` | [Single and folder loader](class54_custom_text_loader.py) | Two custom-loader patterns. |
+| 54 | Custom text `BaseLoader` | [Manual Document, single and folder loader](class54_custom_text_loader.py) | Three patterns from the ChatGPT lesson. |
 | 55 | Core PDF parsing | [Four exercises](class55_pdf_core.py) | Single page, many pages, whole PDF, custom loader. |
-| 56 | Custom CSV loader | [Custom loader](../rag-and-document-loading/programs/custom_loaders.py) | Image source only. |
+| 56 | Custom CSV loader | [Two CSV-to-Document exercises](class56_csv_core.py), [earlier custom loader](../rag-and-document-loading/programs/custom_loaders.py) | ChatGPT note has two complete programs; the local source archive has an image only. |
 | 57 | HTML and web Documents | [Three exercises](class57_web_documents.py) | Local HTML, fetched page, custom web loader; needs loopback network access. |
-| 58 | Metadata normalization | [Four exercises](class58_metadata.py) | Enrich, page/row numbering, standardize, inspect. |
+| 58 | Metadata normalization | [Four exercises](class58_metadata.py) | Enrich, page/row numbering, standardize, inspect TXT/PDF/CSV/HTML together. |
 | 59 | Splitting review | [Text splitting guide](../text-splitting/notes.md) | Image source only. |
 | 60 | Splitting fundamentals | [Five exercises](../text-splitting/programs/class_60_five_programs.py) | All five named PDF topics. |
 | 61 | Chunk size/overlap concepts | [Text splitting guide](../text-splitting/notes.md) | PDF has conceptual examples, not numbered full programs. |
 | 62 | `CharacterTextSplitter` | [Eight exercises](../text-splitting/programs/class_62_eight_programs.py) | All eight named PDF topics. |
 
 **Coverage limit:** These files make the principal exercises easy to run. They do not reproduce every line or small variation from the classroom PDFs. For exact source code and outputs, open the relevant PDF in [`sources/pdfs`](../sources/pdfs).
+
+For Classes 45–62, the [ChatGPT-to-GitHub map](../lessons/chatgpt-classes-45-62.md) identifies the ChatGPT study chats and the matching runnable practice files.
