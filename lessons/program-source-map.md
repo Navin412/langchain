@@ -24,3 +24,7 @@ The [Class 60 ChatGPT note](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523
 The [Class 62 ChatGPT note](https://chatgpt.com/g/g-p-6a99b83f104c81919a85411523ecc95d/c/6aeb86b4-b1a0-83ea-bb63-801b4a44f6ee) names eight programs: first `CharacterTextSplitter`; default separator; missing separator; space separator; overlap; `keep_separator`; `split_documents()` with metadata; and `add_start_index`. The [eight-program practice script](../text-splitting/programs/class_62_eight_programs.py) covers all eight topics. The complete classroom explanations and outputs remain in the [Class 62 PDF](../sources/pdfs/Langchain%20-%20class62.pdf).
 
 For Classes 47, 56 and 59, the local folder supplied an infographic but no numbered PDF. Class 46 had neither. See the [lesson map](classes-42-62.md) for those source gaps.
+
+## Classes 64–74 program continuation
+
+The [November lesson map](classes-63-74.md) lists the new source PDFs and infographics. The Class 64 eight-program and Class 66 experiment scripts extend [text splitting](../text-splitting/notes.md). Classes 69 and 70 have offline [vector and search practice](../embeddings-and-semantic-search/notes.md). Classes 72 and 74 have optional API-backed embedding programs in the same folder. Class 65 supplies a visual chunking lesson but no standalone Python program; Classes 67, 68, 71 and 73 have infographics only in the supplied folder. Programs in this repository are checked adaptations of the printed exercises; see the PDFs for every classroom listing and explanation.

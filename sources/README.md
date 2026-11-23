@@ -154,3 +154,34 @@ Original local files copied without changes on November 6, 2026. Short SHA-256 h
 - [workshop4 - ai interview coach.pdf](pdfs/workshop4%20-%20ai%20interview%20coach.pdf) — SHA-256 `5eb4689e3f67…`
 
 **Added after Class 43:** 19 PDFs and 19 images.
+
+## Added after Class 62 (November 2026)
+
+Original local PDFs and infographics are preserved with their filenames. Classes 67, 68, 71, and 73 have an infographic but no numbered PDF; Class 74 has a PDF but no infographic. Classes 63 and 75 have no supplied source. Duplicate workshop aliases (`lc workshop.pdf` and `Lanchcain workshop.pdf`) match the archived workshop 5 and 6 PDFs by SHA-256 and are not copied again.
+
+### Pdfs
+
+- [Langchain - class64.pdf](pdfs/Langchain%20-%20class64.pdf) — SHA-256 `5000326a080f…`
+- [Langchain - class65.pdf](pdfs/Langchain%20-%20class65.pdf) — SHA-256 `92a845c7fd84…`
+- [Langchain - class66.pdf](pdfs/Langchain%20-%20class66.pdf) — SHA-256 `b13089a9f767…`
+- [Langchain - class69.pdf](pdfs/Langchain%20-%20class69.pdf) — SHA-256 `f553596ed3ae…`
+- [Langchain - class70.pdf](pdfs/Langchain%20-%20class70.pdf) — SHA-256 `adc214224b44…`
+- [Langchain - class72.pdf](pdfs/Langchain%20-%20class72.pdf) — SHA-256 `ac2d961e3004…`
+- [Langchain - class74.pdf](pdfs/Langchain%20-%20class74.pdf) — SHA-256 `2773dcd69ecd…`
+- [workshop5- LC revision.pdf](pdfs/workshop5-%20LC%20revision.pdf) — SHA-256 `31e8bcaec350…`
+- [workshop6 - beat the excuse.pdf](pdfs/workshop6%20-%20beat%20the%20excuse.pdf) — SHA-256 `dd0acb214c07…`
+- [workshop7 - LC PDF Generator.pdf](pdfs/workshop7%20-%20LC%20PDF%20Generator.pdf) — SHA-256 `7ff5d4183374…`
+- [workshop - AI powered assistant - RAG.pdf](pdfs/workshop%20-%20AI%20powered%20assistant%20-%20RAG.pdf) — SHA-256 `7b7954af2c9d…`
+
+### Images
+
+- [class 64.png](images/class%2064.png) — SHA-256 `8e0c963f15d8…`
+- [class 65.png](images/class%2065.png) — SHA-256 `30af05d86e62…`
+- [class 66.png](images/class%2066.png) — SHA-256 `582369160eee…`
+- [class 67.png](images/class%2067.png) — SHA-256 `f916c0158658…`
+- [class 69.png](images/class%2069.png) — SHA-256 `01a913befed5…`
+- [class 70.png](images/class%2070.png) — SHA-256 `268d141cd702…`
+- [class 71.png](images/class%2071.png) — SHA-256 `3e096bb54c26…`
+- [class 72.png](images/class%2072.png) — SHA-256 `0d7de8ba058d…`
+- [class 73.png](images/class%2073.png) — SHA-256 `9e087d35b295…`
+- [RAG Embeddings and Cosine Similarity Infographic 68 demo.png](images/RAG%20Embeddings%20and%20Cosine%20Similarity%20Infographic%2068%20demo.png) — SHA-256 `f6cc66662a95…`

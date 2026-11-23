@@ -1,4 +1,4 @@
-# Text splitting: classes 59–62
+# Text splitting: classes 59–66
 
 ## Why split text?
 
@@ -11,6 +11,14 @@ Chunk size is measured by the configured `length_function`. With Python `len`, i
 [Class 62](../sources/pdfs/Langchain%20-%20class62.pdf) explains `CharacterTextSplitter`: it splits at a configured separator and merges pieces toward the target chunk size. `split_text()` returns strings. `create_documents()` creates Documents from text and optional metadata. `split_documents()` accepts Documents and preserves their source metadata. The [short demo](programs/splitting_demo.py) shows metadata and an oversized-piece case. The [Class 60 five-program practice](programs/class_60_five_programs.py) and [Class 62 eight-program practice](programs/class_62_eight_programs.py) cover the programs named in the ChatGPT notes.
 
 For text with mixed paragraph, line and word boundaries, `RecursiveCharacterTextSplitter` tries a sequence of separators. It is a useful follow-up when one separator leaves pieces too large. The original Class 62 PDF contains the complete classroom programs and outputs. The repository scripts are checked adaptations, with an [explicit source and program map](../lessons/program-source-map.md).
+
+## Recursive splitting and chunk experiments: classes 64-66
+
+[Class 64](../sources/pdfs/Langchain%20-%20class64.pdf) extends the single-separator lesson. `RecursiveCharacterTextSplitter` tries separators in order, typically paragraphs, lines, spaces, then individual characters. When a piece remains too large, it falls back to the next separator. The [Class 64 infographic](../sources/images/class%2064.png) shows this flow; [Class 65](../sources/pdfs/Langchain%20-%20class65.pdf) introduces ChunkViz as a visual aid. An online visualization is useful for learning, but inspect the output of your actual splitter because its settings and version determine your chunks.
+
+[Class 66](../sources/pdfs/Langchain%20-%20class66.pdf) compares chunk size and overlap. Small chunks can separate related facts; large chunks can mix unrelated topics. More overlap repeats context but increases index size and potentially retrieval cost. There is no universally best setting: inspect boundary quality and test the questions your application must answer. The [recursive splitting demo](programs/recursive_splitting.py) runs offline and retains `Document` metadata.
+
+The [Class 64 eight-program practice](programs/class_64_eight_programs.py) follows the PDF's sequence: first recursive split, comparison with `CharacterTextSplitter`, separator priority, deeper fallback, overlap, `keep_separator`, metadata, and a policy document. The [Class 66 experiments](programs/class_66_experiments.py) vary chunk size and overlap on fixed text and sample policy/FAQ material. Both run offline.
 
 ## Practice checks
 
