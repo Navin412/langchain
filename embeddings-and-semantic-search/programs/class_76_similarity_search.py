@@ -83,7 +83,14 @@ def embedding_exercises(embeddings: Embeddings, question: str, top_k: int) -> No
     course_records = [
         ("python_course.txt", "Courses", "Python training is available for beginners and experienced developers."),
         ("java_course.txt", "Courses", "Java training covers object-oriented programming and enterprise development."),
-        ("online_classes.txt", "Learning", "Students can attend live online classes from home."),
+        (
+            "online_classes.txt",
+            "Learning",
+            "Students can attend live online classes from home. "
+            "Open the course portal to find the weekly schedule and join the virtual classroom. "
+            "During each session, students can ask questions and follow the instructor's examples. "
+            "After class, review the exercises and practice them before the next session.",
+        ),
         ("recordings.txt", "Learning", "Registered students can access recorded sessions under their course access terms."),
         ("fees.txt", "Support", "Students can contact the support team for course fee information."),
         ("support.txt", "Support", "The support team helps with course access and technical issues."),
@@ -94,6 +101,7 @@ def embedding_exercises(embeddings: Embeddings, question: str, top_k: int) -> No
     ]
     splitter = RecursiveCharacterTextSplitter(chunk_size=150, chunk_overlap=20)
     chunks = splitter.split_documents(course_documents)
+    print(f"7. Split {len(course_documents)} course documents into {len(chunks)} chunks.")
     print(f"7. Matching course chunks for {question!r}:")
     show_results(rank_documents(question, chunks, embeddings)[:top_k])
 
