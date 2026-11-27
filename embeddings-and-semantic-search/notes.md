@@ -1,4 +1,4 @@
-# Embeddings and semantic search: classes 67–74
+# Embeddings and semantic search: classes 67–76
 
 An embedding model turns text into a numeric vector. Similarity functions compare vectors, allowing a search system to rank document chunks by meaning. The [Class 67](../sources/images/class%2067.png) and [Class 68](../sources/images/RAG%20Embeddings%20and%20Cosine%20Similarity%20Infographic%2068%20demo.png) infographics connect loading, splitting, embeddings, retrieval, and a grounded answer. Embeddings produce vectors; a chat model produces the answer.
 
@@ -15,6 +15,10 @@ The [Class 71 infographic](../sources/images/class%2071.png) and [Class 72 notes
 [Class 73](../sources/images/class%2073.png) and [Class 74](../sources/pdfs/Langchain%20-%20class74.pdf) combine `Document` objects, splitting, and document embeddings. Pass `page_content` strings to `embed_documents()`, then pair the resulting vectors with each chunk and its metadata. Use the same embedding model and compatible dimensions for stored chunks and later queries. The [document pipeline](programs/document_embeddings.py) demonstrates this without a vector database. The diagrams show [Class 69](../sources/images/class%2069.png), [70](../sources/images/class%2070.png), and [72](../sources/images/class%2072.png) concepts at a glance.
 
 The [Class 72 seven practicals](programs/class_72_seven_practicals.py) include six hosted-model exercises and an optional local Hugging Face model exercise (`--local`). The local option needs `langchain-huggingface` and `sentence-transformers`, which are not in the base requirements. The [Class 74 seven-program practice](programs/class_74_seven_programs.py) follows the PDF's document embedding sequence and keeps all records in memory.
+
+## Rank and retrieve
+
+[Classes 75–76](../lessons/classes-75-76.md) compare cosine similarity, dot product, and Euclidean distance. The [Class 76 practice script](programs/class_76_similarity_search.py) walks through the vector math, ranks embedded documents, and retrieves top-K chunks with their source metadata. The metric exercises run offline. Pass `--live` to run the embedding exercises.
 
 ## Try it
 

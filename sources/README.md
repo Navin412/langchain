@@ -157,7 +157,7 @@ Original local files copied without changes on November 6, 2026. Short SHA-256 h
 
 ## Added after Class 62 (November 2026)
 
-Original local PDFs and infographics are preserved with their filenames. Classes 67, 68, 71, and 73 have an infographic but no numbered PDF; Class 74 has a PDF but no infographic. Classes 63 and 75 have no supplied source. Duplicate workshop aliases (`lc workshop.pdf` and `Lanchcain workshop.pdf`) match the archived workshop 5 and 6 PDFs by SHA-256 and are not copied again.
+Original local PDFs and infographics are preserved with their filenames. Classes 67, 68, 71, and 73 have infographics only. Class 74 has a PDF only. The supplied collection has no Class 63 source. Duplicate workshop aliases (`lc workshop.pdf` and `Lanchcain workshop.pdf`) match the archived workshop 5 and 6 PDFs by SHA-256.
 
 ### Pdfs
 
@@ -185,3 +185,9 @@ Original local PDFs and infographics are preserved with their filenames. Classes
 - [class 72.png](images/class%2072.png) — SHA-256 `0d7de8ba058d…`
 - [class 73.png](images/class%2073.png) — SHA-256 `9e087d35b295…`
 - [RAG Embeddings and Cosine Similarity Infographic 68 demo.png](images/RAG%20Embeddings%20and%20Cosine%20Similarity%20Infographic%2068%20demo.png) — SHA-256 `f6cc66662a95…`
+
+## Classes 75–76
+
+- [Class 75 infographic](images/class%2075.png) — SHA-256 `71e715d8f747…`
+- [Class 76 infographic](images/class%2076.png) — SHA-256 `dea8f6e80561…`
+- [Class 76 PDF](pdfs/Langchain%20-%20class76.pdf) — SHA-256 `a3e720e54282…`

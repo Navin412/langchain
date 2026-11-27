@@ -14,11 +14,11 @@ Topic-based study material adapted from the supplied *AI with Durga Sir* class n
 | 8 | [Text splitting](text-splitting/notes.md) | 59–62 | Chunks, overlap, separators, CharacterTextSplitter |
 | 9 | [AI learning assistant](projects/ai-learning-assistant/README.md) | Workshop | A complete small application |
 | 10 | [Recursive splitting](text-splitting/notes.md#recursive-splitting-and-chunk-experiments-classes-64-66) | 64–66 | Separator fallback and chunk experiments |
-| 11 | [Embeddings and semantic search](embeddings-and-semantic-search/notes.md) | 67–74 | Vectors, cosine similarity, query and document embeddings |
+| 11 | [Embeddings and semantic search](embeddings-and-semantic-search/notes.md) | 67–76 | Query and document embeddings, similarity metrics, and top-K retrieval |
 
 See the [earlier lesson map](lessons/README.md) for material from the ChatGPT project and the [new lesson map](lessons/classes-42-62.md) for the locally supplied classes after 41. Original PDFs and images are indexed in the [source archive](sources/README.md).
 
-The [November continuation](lessons/classes-63-74.md) maps the newly supplied classes and workshops to their notes, infographics, and runnable examples.
+The November lessons cover [classes 63–74 and the workshops](lessons/classes-63-74.md), followed by [classes 75–76 and their retrieval exercises](lessons/classes-75-76.md).
 
 For a class-by-class route through the Python examples, see the [practice guide](practice/README.md). It links the earlier programs and adds small exercises for document loading, web loading, metadata and conversation history.
 
